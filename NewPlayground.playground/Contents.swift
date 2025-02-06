@@ -49,3 +49,26 @@ else if appVer >= 2.0{
 else{
     print("Your app version is outdated. Update required.")
 }
+let number = 7
+for multiplier in 1...10{
+    print("\(number) x \(multiplier) = \(number * multiplier)")
+}
+let n = 50
+var sum = 0
+for number in 1...n{
+    sum += number
+}
+print("The sum of the first \(n) natural numbers is \(sum)")
+
+
+func sayHello() -> String {
+    var name = "Swift"
+    return "Hello "+name+"!"
+}
+print(sayHello())
+
+func favoriteProgram(name: String) ->String{
+    var name = "My fav program is named \(name)"
+    return name
+}
+print(favoriteProgram(name: "Java"))
